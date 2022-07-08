@@ -14,7 +14,7 @@ public class TesteSQLite
 		try
 		{
 			Class.forName("org.sqlite.JDBC");
-			Connection c = DriverManager.getConnection("jdbc:sqlite:C:\\Datenkram\\LF08v2\\Übungen\\SQL-Test\\test.db");
+			Connection c = DriverManager.getConnection("jdbc:sqlite:C:\\Datenkram\\LF08v2\\Übungen\\SQL-Test\\test.db"); //Pfad hier als Beispiel
 			Statement erstellen = c.createStatement();
 			
 			
