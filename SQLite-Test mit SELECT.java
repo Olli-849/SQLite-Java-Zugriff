@@ -14,7 +14,6 @@ public class TesteSQLiteMitSelect
 		try
 		{
 			Class.forName("org.sqlite.JDBC");
-//			Connection c = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\ayank\\OneDrive\\Desktop\\SQLITE\\lirionsDatenbank.geheim");
 			Connection c = DriverManager.getConnection("jdbc:sqlite:C:\\Datenkram\\LF08v2\\Übungen\\SQL-Test\\test.db");
 			
 			Statement kampfkommando = c.createStatement();
